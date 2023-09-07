@@ -10,10 +10,11 @@
 - Link to your  YouTube video 
     
 ## 2. Background
-- Consumer sentiment evaluation is seldom a straightforward linear process; it involves a wide range of variables that affect users' moods and sentiments 
-    as well as a variety of textual expression methods that vary from user to user.
+- Consumer sentiment evaluation is seldom a straightforward linear process; it involves a wide range of variables that affect users' moods and sentiments as well as a variety of textual expression methods that vary from user to user.
+
 -In order to do this, machine learning modeling and statistical data analysis techniques are effective tools for leveraging client sentiment while also evaluating the
      objectivity, dependability, and validity of various forms of customer feedback.
+
 - Measures the inclination of people’s opinions.
 - Market analysis and customer feedback.
   
