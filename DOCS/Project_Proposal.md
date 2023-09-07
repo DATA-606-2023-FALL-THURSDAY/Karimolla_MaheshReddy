@@ -25,7 +25,7 @@
 
 
 ## 3. Data 
-- Data sources: Amazon Product review dataset. The data set contains 568,454 customer's reviews on different amazon products. Arham Rumi. https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews
+- Data sources: Amazon Product review dataset. The data set contains 568,454 customer's reviews on different amazon products.https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews
 - Data size (300.9MB)
 - Data shape (568454 of rows and 10 columns)
 - Columns name: ID,ProductID,UserID,ProfileName,HelpfulnessNumerator,HelpfulnessDenominator,Score,Time,Summary,Text
