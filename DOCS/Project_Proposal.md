@@ -30,12 +30,12 @@
 - Data shape (568454 of rows and 10 columns)
 - Columns name: ID,ProductID,UserID,ProfileName,HelpfulnessNumerator,HelpfulnessDenominator,Score,Time,Summary,Text
 
-ProductID: Identification number of a product, Object
-UserID: Identification number of the User, Object
-ProfileName: Profile name of the user, Object
-Text: Actual reviews by the customer, Object
-Summary: Synopsis of reviews in fewer words, Object
-Score: Rating given by the customers, float64
+- ProductID: Identification number of a product, Object
+- UserID: Identification number of the User, Object
+- ProfileName: Profile name of the user, Object
+- Text: Actual reviews by the customer, Object
+- Summary: Synopsis of reviews in fewer words, Object
+- Score: Rating given by the customers, float64
 
 - Score is the target column in our ML model.
 
