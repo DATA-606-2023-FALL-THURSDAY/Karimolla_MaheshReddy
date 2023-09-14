@@ -1,7 +1,7 @@
  
 ## 1. Title and Author
 
-- Project Title: Sentiment Analysis of Textual Data
+- Project Title: Flight delay analysis and prediction.
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - Author: Mahesh Reddy Karimolla
 - Link to the author's GitHub profile: https://github.com/LW23290
@@ -10,34 +10,28 @@
 - Link to your  YouTube video 
     
 ## 2. Background
-- Consumer sentiment evaluation is seldom a straightforward linear process; it involves a wide range of variables that affect users' moods and sentiments as well as a variety of textual expression methods that vary from user to user.
+- Flight delays are a major issue in the aviation sector, causing aggravation for travelers and costing airlines money. Flight delays can happen for a number of causes, such as bad weather, technical problems, airport congestion, and air traffic control constraints.
 
-- In order to do this, machine learning modeling and statistical data analysis techniques are effective tools for leveraging client sentiment while also evaluating the objectivity, dependability, and validity of various forms of customer feedback.
+- In addition to aggravating passengers, flight delays also increase traveler stress since they increase the cost of lodging and meals. The ensuing lack of trust in airlines may also hurt their reputation and lower demand from passengers. Airlines also spend more money on their crew, aircraft repositioning, and more fuel as a result of their efforts to reduce elapsed time.
 
-- Measures the inclination of people’s opinions.
-- Market analysis and customer feedback.
   
 
 ## Research Questions
-- How can we discover and classify attitudes (multiclass classification) given a dataset of human comprehensible words (and grammar)?
-- How should the criteria and method for feature extraction from the raw data be decided? Which hyperparameters are ideal?
-- How can we extrapolate the outcomes of our sentiment analysis to allow for the creation of unsupervised text?
-
+- Relationship between the average departure and arrival delay times for each airport.
+- Distribution of the average delay by distance.
+- to predict the upcoming delay.
 
 ## 3. Data 
-- Data sources: Amazon Product review dataset. The data set contains 568,454 customer's reviews on different amazon products.https://www.kaggle.com/datasets/arhamrumi/amazon-product-reviews
-- Data size (300.9MB)
-- Data shape (568454 of rows and 10 columns)
-- Columns name: ID,ProductID,UserID,ProfileName,HelpfulnessNumerator,HelpfulnessDenominator,Score,Time,Summary,Text
+- Data sources: The data has been collected from the Kaggle.
+- Dataset contains U.S. flight data from 2009–2018. The rows of the dataset represent specific flights from that year, while the columns contain extensive information on the flight such as airline, flight date, departure delay, arrival delay, etc.
+- The entire dataset contains CSV files for each year, which in total amass to ~7GB. Moreover, each file has approximately 6 million rows per year.
 
-- ProductID: Identification number of a product, Object
-- UserID: Identification number of the User, Object
-- ProfileName: Profile name of the user, Object
-- Text: Actual reviews by the customer, Object
-- Summary: Synopsis of reviews in fewer words, Object
-- Score: Rating given by the customers, float64
+## Data Description
+- The dataset contains flight information for a given year, including the month, day, and various attributes related to each flight.
+- There are 24 columns in this dataset, with 3 columns of categorical data (OP_CARRIER, ORIGIN, and DEST), 4 columns of integer data (year, month, day, and OP_CARRIER_FL_NUM), and 17 columns of float data.
 
-- Score is the target column in our ML model.
+
+- Upcoming delay is the target variable in the project.
 
 
    
