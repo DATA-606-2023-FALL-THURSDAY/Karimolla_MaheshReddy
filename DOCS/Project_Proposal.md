@@ -19,6 +19,7 @@
 ## Research Questions
 - Relationship between the average departure and arrival delay times for each airport.
 - Distribution of the average delay by distance.
+- Average delay by airline, average delay by flight distance, average delay by destination.
 - to predict the upcoming delay.
 
 ## 3. Data 
