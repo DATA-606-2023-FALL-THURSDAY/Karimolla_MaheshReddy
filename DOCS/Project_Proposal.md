@@ -32,7 +32,7 @@
 - There are 24 columns in this dataset, with 3 columns of categorical data (OP_CARRIER, ORIGIN, and DEST), 4 columns of integer data (year, month, day, and OP_CARRIER_FL_NUM), and 17 columns of float data.
 
 
-- Upcoming delay is the target variable in the project.
-
+- Dep_delay is the target variable in the project.
+- Predict the upcoming delay.
 
    
