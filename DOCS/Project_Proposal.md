@@ -24,8 +24,8 @@
 
 ## 3. Data 
 - Data sources: The data has been collected from the Kaggle.
-- Dataset contains U.S. flight data from 2009–2018. The rows of the dataset represent specific flights from that year, while the columns contain extensive information on the flight such as airline, flight date, departure delay, arrival delay, etc.
-- The entire dataset contains CSV files for each year, which in total amass to ~7GB. Moreover, each file has approximately 6 million rows per year.
+- Dataset contains U.S. flight data of the year 2009. The rows of the dataset represent specific flights from that year, while the columns contain extensive information on the flight such as airline, flight date, departure delay, arrival delay, etc.
+- The entire dataset contains CSV files for each year, which in total amass to ~800MB. Moreover, each file has approximately 6 million rows per year.
 
 ## Data Description
 - The dataset contains flight information for a given year, including the month, day, and various attributes related to each flight.
