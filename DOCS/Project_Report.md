@@ -32,28 +32,28 @@
 - There are 24 columns in this dataset, with 3 columns of categorical data (OP_CARRIER, ORIGIN, and DEST), 4 columns of integer data (year, month, day, and OP_CARRIER_FL_NUM), and 17 columns of float data.
 
 ### Data Set Columns
-- Year   year of the flight that departs
-- Month  month of the flight that departs
-- Day    day of the flight that departs
-- OP_CARRIER  name of the flight
-- OP_CARRIER_FL_NUM number of the flight
-- ORIGIN  starting location of the flight
-- DEST    destination of the flight
-- CRS_DEP_TIME   Computer Reservation System departure time
-- DEP_TIME    The actual departure time
-- DEP_DELAY  The delay in the flight departure
-- CRS_ARR_TIME the scheduled arrival time
-- ARR_TIME the actual arrival time
-- ARR_DELAY The delay in the flight arrival
-- CRS_ELAPSED_TIME   in minutes
-- ACTUAL_ELAPSED_TIME in minutes
-- AIR_TIME in minutes
-- DISTANCE in miles
-- CARRIER_DELAY in minutes. Carrier delay is within the control of the air carrier.
-- WEATHER_DELAY in  minutes. 
-- NAS_DELAY in minutes
-- SECURITY_DELAY in minutes
-- LATE_AIRCRAFT_DELAY in minutes
+- Year   year of the flight that departs,    int16
+- Month  month of the flight that departs,    int16
+- Day    day of the flight that departs,     int16
+- OP_CARRIER  name of the flight,    int16
+- OP_CARRIER_FL_NUM number of the flight, int16
+- ORIGIN  starting location of the flight,   Category
+- DEST    destination of the flight, category
+- CRS_DEP_TIME   Computer Reservation System departure time,   float16
+- DEP_TIME    The actual departure time,    float16
+- DEP_DELAY  The delay in the flight departure,   float16
+- CRS_ARR_TIME the scheduled arrival time,   float16
+- ARR_TIME the actual arrival time,    float16
+- ARR_DELAY The delay in the flight arrival,   float16
+- CRS_ELAPSED_TIME   in minutes,    float16
+- ACTUAL_ELAPSED_TIME in minutes,    float16
+- AIR_TIME in minutes,    float16
+- DISTANCE in miles,    float16
+- CARRIER_DELAY in minutes. Carrier delay is within the control of the air carrier,    float16
+- WEATHER_DELAY in  minutes, Weather delay is caused by extreme or hazardous weather conditions that are forecasted or manifest themselves on point of departure, enroute, or on point of arrival.   float16
+- NAS_DELAY in minutes, Delay that is within the control of the National Airspace System (NAS) may include: non-extreme weather conditions, airport operations, heavy traffic volume, air traffic control, etc.   float16
+- SECURITY_DELAY in minutes, Security delay is caused by evacuation of a terminal or concourse, re-boarding of aircraft because of security breach, inoperative screening equipment and/or long lines in excess of 29 minutes at screening areas.   float16
+- LATE_AIRCRAFT_DELAY in minutes, Arrival delay at an airport due to the late arrival of the same aircraft at a previous airport. The ripple effect of an earlier delay at downstream airports is referred to as delay propagation.  float16
 
 
 - Dep_delay is the target variable in the project.
@@ -84,20 +84,17 @@
 - we can see the output is a bar chart which is  showing the average departure and arrival delay for 23 airlines i.e from our data. The visualization compares the average delay times for each airline and highlights which airlines have higher average delays for both departure and arrival times in a clear manner.
 
 #### Total Number of flights per Airline
-- 
-The output is a line graph showing the number of flights. The visualization highlights  that which airlines operate the most flights and how they compare to one another
+- The output is a line graph showing the number of flights. The visualization highlights  that which airlines operate the most flights and how they compare to one another
 The graph displays each airline's name on the x-axis and the number of flights on the y-axis, where the data points are connected with a dotted line.WN has airlines operate most flights compared to others.
 
 #### Busiest airports by number of flights
 - this visualization is a pie chart showing the distribution of the number of flights operated by the 20 busiest airports. The visualization indicates the relative proportion of flights handled by each airport. The graph displays each airport's name as a label and the percentage of total flights. The size of the slice represents the relative contribution of each airport to the total number of flights.The larger the slice, the more flights departed from that airport. It also displays the percentage of flights as well as the name of the airport.this makes easy to compare the relative popularity of different airports and identify the top contributors to the total number of flights in the dataset.
 
 #### Average Delay by origin
-- 
-The visualization looks like scatter plot of the average delay by origin airport, with different colors representing departure and arrival delays. The x-axis represents the average departure delay in minutes, and the y-axis represents the average arrival delay in minutes. The plot shows the relationship between these two variables for each origin airport, and the color of each point represents whether it is an arrival delay in blue color and departure delay in red color. It is useful for identifying airports that tend to have longer delays for either arrivals or departures, as well as for seeing the overall relationship between departure and arrival delays.
+- The visualization looks like scatter plot of the average delay by origin airport, with different colors representing departure and arrival delays. The x-axis represents the average departure delay in minutes, and the y-axis represents the average arrival delay in minutes. The plot shows the relationship between these two variables for each origin airport, and the color of each point represents whether it is an arrival delay in blue color and departure delay in red color. It is useful for identifying airports that tend to have longer delays for either arrivals or departures, as well as for seeing the overall relationship between departure and arrival delays.
 
 #### Average Delay by Destination
-- 
-here we can see the output shows  relationship between the average departure and arrival delay , with each point representing an airport. The points are color-coded to differentiate between arrival and departure delays.
+- here we can see the output shows  relationship between the average departure and arrival delay , with each point representing an airport. The points are color-coded to differentiate between arrival and departure delays.
 there is a strong positive correlation between average departure and arrival delay times for most airports. This indicates that airports with longer departure delays also tend to have longer arrival delays. and it also shows that there are some airports with very high average delays, particularly in the top right corner of the plot where both departure and arrival delays are high. Overall, we can say that the visualization provides a useful way to compare delay times between different airports.
 
 #### Average Delay by Flight distance
