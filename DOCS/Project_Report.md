@@ -31,6 +31,31 @@
 - The dataset contains flight information for a given year, including the month, day, and various attributes related to each flight.
 - There are 24 columns in this dataset, with 3 columns of categorical data (OP_CARRIER, ORIGIN, and DEST), 4 columns of integer data (year, month, day, and OP_CARRIER_FL_NUM), and 17 columns of float data.
 
+### Data Set Columns
+- Year   year of the flight that departs
+- Month  month of the flight that departs
+- Day    day of the flight that departs
+- OP_CARRIER  name of the flight
+- OP_CARRIER_FL_NUM number of the flight
+- ORIGIN  starting location of the flight
+- DEST    destination of the flight
+- CRS_DEP_TIME   Computer Reservation System departure time
+- DEP_TIME    The actual departure time
+- DEP_DELAY  The delay in the flight departure
+- CRS_ARR_TIME the scheduled arrival time
+- ARR_TIME the actual arrival time
+- ARR_DELAY The delay in the flight arrival
+- CRS_ELAPSED_TIME   in minutes
+- ACTUAL_ELAPSED_TIME in minutes
+- AIR_TIME in minutes
+- DISTANCE in miles
+- CARRIER_DELAY in minutes. Carrier delay is within the control of the air carrier.
+- WEATHER_DELAY in  minutes. 
+- NAS_DELAY
+- SECURITY_DELAY
+- LATE_AIRCRAFT_DELAY
+- 
+ 
 
 - Dep_delay is the target variable in the project.
 - Predict the upcoming delay.
