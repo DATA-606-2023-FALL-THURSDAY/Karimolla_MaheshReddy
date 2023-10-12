@@ -78,6 +78,8 @@
 - Conver the RDD into Data frame.
 
 #### Cause for the airline delay
+
+
 -  The chart has four bars, each representing one of the four delay causes: Carrier Delay, National Airspace System (NAS) Delay, Security Delay, and Late Aircraft Delay. The height of each bar represents the percentage of total delay time caused by that particular delay reason.indicates the relative contribution of each delay cause to the total delay time
 
 #### Average Delay by Airline
