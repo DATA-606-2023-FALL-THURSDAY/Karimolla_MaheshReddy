@@ -116,5 +116,11 @@ there is a strong positive correlation between average departure and arrival del
 
 ### Machine Learning
 
+- Features: ’DEST’, CRS_DEP_TIME, DISTANCE, CARRIER DELAY, WEATHER_DELAY, NAS_DELAY, SECURITY_DELAY.
+- Departure Delay(Dep_Delay) is the target variable.
+- Performed a linear regression model.
+- Root Mean Squared Error (RMSE) : 0.0040336353
+- R-Squared (R2) Score : 0.99999998378
+
 - RMSE value is approximately 0.0047. so the average, the model's predictions have an error of around 0.0047 units when predicting flight delay. this model's predictions have very low average error, while the high R2 score indicates that the model can explain a significant amount of the variance in the flight delay. These evaluation metrics indicate that the linear regression model performs exceptionally well in predicting flight delays 
    
