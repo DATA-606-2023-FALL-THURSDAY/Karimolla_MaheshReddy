@@ -122,5 +122,15 @@ there is a strong positive correlation between average departure and arrival del
 - Root Mean Squared Error (RMSE) : 0.0040336353
 - R-Squared (R2) Score : 0.99999998378
 
-- RMSE value is approximately 0.0047. so the average, the model's predictions have an error of around 0.0047 units when predicting flight delay. this model's predictions have very low average error, while the high R2 score indicates that the model can explain a significant amount of the variance in the flight delay. These evaluation metrics indicate that the linear regression model performs exceptionally well in predicting flight delays 
-   
+- RMSE value is approximately 0.0047. so the average, the model's predictions have an error of around 0.0047 units when predicting flight delay. this model's predictions have very low average error, while the high R2 score indicates that the model can explain a significant amount of the variance in the flight delay. These evaluation metrics indicate that the linear regression model performs exceptionally well in predicting flight delays
+
+### Findings from Analysis
+- We found Percentage of total delay time. Four delay causes - carrier delay, NAS delay, security delay, and late aircraft delay
+- The average departure and arrival delay. United Airlines (UA) has the highest average departure delay time, while Frontier Airlines (F9) has the highest average arrival delay time. On the other hand, Hawaiian Airlines (HA) has the lowest average delay time for both departure and arrival
+- Comparison of the number of flights operated by each airline.
+- The distribution of the number of flights operated by the 20 busiest airports.
+-Positive correlation between the average departure delay and arrival delay for each origin airport
+- Relationship between the average departure and arrival delay times for each airport.
+- Distribution of the average delay times by distance.
+- The highest number of delayed departures is Atlanta (ATL), followed by Chicago O'Hare (ORD), and Dallas/Fort Worth (DFW).
+- Top 5 airports with the highest proportion of delayed arrivals are ATL, ORD, DFW, LAX, and DEN.
