@@ -113,4 +113,8 @@ there is a strong positive correlation between average departure and arrival del
 ![Unknown-7](https://github.com/DATA-606-2023-FALL-THURSDAY/Karimolla_MaheshReddy/assets/143559004/993342ac-e9e0-46fc-b98c-6767c113203a)
 
 - The visualization is a kernel density plot that shows the distribution of the average delay times by distance. The x-axis represents the average delay time in minutes and the y-axis represents the density of flights for a particular average delay time. The red curve represents the average departure delay and the green curve represents the average arrival delay.
+
+### Machine Learning
+
+- RMSE value is approximately 0.0047. so the average, the model's predictions have an error of around 0.0047 units when predicting flight delay. this model's predictions have very low average error, while the high R2 score indicates that the model can explain a significant amount of the variance in the flight delay. These evaluation metrics indicate that the linear regression model performs exceptionally well in predicting flight delays 
    
