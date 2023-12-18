@@ -1,7 +1,7 @@
  
 ## 1. Title and Author
 
-- Project Title: Flight delay analysis and prediction.
+- Project Title: Flight delay analysis and prediction_MaheshReddy_Karimolla_Semestee3
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - Author: Mahesh Reddy Karimolla
 - Link to the author's GitHub profile: https://github.com/LW23290
