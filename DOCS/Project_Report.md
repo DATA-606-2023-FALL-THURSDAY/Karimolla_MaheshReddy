@@ -135,3 +135,9 @@ there is a strong positive correlation between average departure and arrival del
 - The highest number of delayed departures is Atlanta (ATL), followed by Chicago O'Hare (ORD), and Dallas/Fort Worth (DFW).
 - Top 5 airports with the highest proportion of delayed arrivals are ATL, ORD, DFW, LAX, and DEN.
 - Implemented the machine learning model to predict the upcoming delay.
+
+## Conclusion
+- This project has helped to analyze and understand flight delays and cancellations in the United States.
+- We were able to find patterns and trends in flight delays and cancellations as well as insights into the reasons behind them by utilizing machine learning models and sophisticated analytics approaches.
+- By taking proactive steps to decrease flight delays and cancellations, airlines and airport authorities can improve the overall effectiveness of air transport and improve the customer experience. 
+
