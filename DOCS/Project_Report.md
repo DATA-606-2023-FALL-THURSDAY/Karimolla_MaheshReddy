@@ -141,3 +141,8 @@ there is a strong positive correlation between average departure and arrival del
 - We were able to find patterns and trends in flight delays and cancellations as well as insights into the reasons behind them by utilizing machine learning models and sophisticated analytics approaches.
 - By taking proactive steps to decrease flight delays and cancellations, airlines and airport authorities can improve the overall effectiveness of air transport and improve the customer experience. 
 
+## Future Scope
+- Explore real-time data integration for more accurate predictions.
+- Consider incorporating weather and traffic data for a comprehensive analysis.
+- Extend the model to include international flights and assess global delay patterns.
+- Collaborate with airlines and aviation authorities to implement predictive insights for operational improvements.
