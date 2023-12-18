@@ -6,8 +6,8 @@
 - Author: Mahesh Reddy Karimolla
 - Link to the author's GitHub profile: https://github.com/LW23290
 - Link to the author's LinkedIn progile: https://www.linkedin.com/in/mahesh-reddy-karimolla/
-- Link to your PowerPoint presentation file
-- Link to your  YouTube video 
+- Link to your PowerPoint presentation file: https://umbc-my.sharepoint.com/:p:/g/personal/lw23290_umbc_edu/EdbvGsXF0IlBnudWkXdGBAABLaNtvgBYzzeM96KdsjH5hw?e=q1RI5F
+- Link to your  YouTube video: https://youtu.be/sFsa46SCAKA
     
 ## 2. Background
 - Flight delays are a major issue in the aviation sector, causing aggravation for travelers and costing airlines money. Flight delays can happen for a number of causes, such as bad weather, technical problems, airport congestion, and air traffic control constraints.
