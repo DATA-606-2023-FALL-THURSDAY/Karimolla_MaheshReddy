@@ -55,9 +55,11 @@
 - SECURITY_DELAY in minutes, Security delay is caused by evacuation of a terminal or concourse, re-boarding of aircraft because of security breach, inoperative screening equipment and/or long lines in excess of 29 minutes at screening areas.   float16
 - LATE_AIRCRAFT_DELAY in minutes, Arrival delay at an airport due to the late arrival of the same aircraft at a previous airport. The ripple effect of an earlier delay at downstream airports is referred to as delay propagation.  float16
 
-
+## Target Variable and predictions.
 - Dep_delay is the target variable in the project.
-- Predict the upcoming delay.
+- To Predict the upcoming delay.
+- Features: OP_CARRIER, ORIGIN, month, day, year, DEST, CRS_DEP_TIME, DISTANCE, CARRIER DELAY, WEATHER_DELAY, NAS_DELAY, SECURITY_DELAY, AIR_TIME.
+
 
 ## Exploratory Data Analysis
 
