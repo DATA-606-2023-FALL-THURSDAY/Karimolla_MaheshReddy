@@ -134,3 +134,4 @@ there is a strong positive correlation between average departure and arrival del
 - Distribution of the average delay times by distance.
 - The highest number of delayed departures is Atlanta (ATL), followed by Chicago O'Hare (ORD), and Dallas/Fort Worth (DFW).
 - Top 5 airports with the highest proportion of delayed arrivals are ATL, ORD, DFW, LAX, and DEN.
+- Implemented the machine learning model to predict the upcoming delay.
