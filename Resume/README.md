@@ -20,31 +20,21 @@ Bachelor of Technology, Electronics and Communication Engineering
 ## Skills
 
 Languages:  Python, SQL, Java, C
+
 Database: SQL, MySQL, NoSQL, Azure SQL, MongoDB
+
 Azure Services: Azure Data Factory, Azure Synapse Analytics, Azure Databricks, AWS 
+
 Big Data Skills: Hadoop, Apache Spark, MapReduce, Snowflake, Informatica
+
 Tools/Libraries: Tableau, Power BI, MS Excel, MS Office, Alteryx
+
 Libraries: NumPy, Pandas, Matplotlib, Scikit-learn, SciPy, Seaborn, TensorFlow
+
 Analytical Skills: Data preprocessing, Data profiling, Data Mining, Data Warehousing, A/B Testing, Time series Analysis
+
 Methodologies: Waterfall, Agile/ Scrum, SDLC, JIRA
 
-
-
-## Projects
-
-### Path Finding Using A* Algorithm
-I have improved pathfinding for the best travel routes with a novel addition to Dijkstra's method. Using localized grid divisions to give priority to paths with few impediments, this sophisticated algorithm automatically chooses the best path inside a grid-based map. 
-
-My skill in algorithmic design and problem-solving utilizing a well-known programming language is clearly demonstrated by the painstaking implementation of the full solution using MATLAB programming.
-
-### Path Routing on a Map and Simulation using A* Algorithm
-It is an extension of the above project. The shortest path is found out from a point A to point B. Image processing techniques are used for obstacles. The simulation is done for the routing. This project showcases proficiency in frontend technologies and backend frameworks, enhancing user experience and accessibility for sports enthusiasts.
-
-### Gas Detecting Using MQ3 Sensor
-The project mainly focuses on detecting the gas leakage. The percentage of individual gases can also be predicted. A buzzer rings when the sensor finds out unusual gas.
-
-### Twitter Sentimental Analysis using Machine Learning
-The aim of the project is to build a model that can accurately classify Tweets as positive or negative.
 
 ## Experiences
 ### Data Analyst | McKesson
